@@ -6,17 +6,17 @@
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         
-        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('assets/css/bootstrap.min.css') }}">
         <!-- Animation library for notifications   -->
-        <link href="{{asset('assets/css/animate.min.css')}}" rel="stylesheet"/>
+        <link href="{{secure_asset('assets/css/animate.min.css')}}" rel="stylesheet"/>
 
         <!--  Light Bootstrap Table core CSS    -->
-        <link href="{{asset('assets/css/light-bootstrap-dashboard.css?v=1.4.0')}}" rel="stylesheet"/>
+        <link href="{{secure_asset('assets/css/light-bootstrap-dashboard.css?v=1.4.0')}}" rel="stylesheet"/>
 
         <!--     Fonts and icons     -->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-        <link href="{{asset('assets/css/pe-icon-7-stroke.c')}}ss" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+        <link href="{{secure_asset('assets/css/pe-icon-7-stroke.c')}}ss" rel="stylesheet" />
           
     </head>
     <body>
@@ -115,17 +115,17 @@
         @endif
       </body>
         <!--   Core JS Files   -->
-        <script src="{{asset('assets/js/jquery.3.2.1.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
+        <script src="{{secure_asset('assets/js/jquery.3.2.1.min.js')}}" type="text/javascript"></script>
+        <script src="{{secure_asset('assets/js/bootstrap.min.js')}}" type="text/javascript"></script>
       
         <!--  Charts Plugin -->
-        <script src="{{asset('assets/js/chartist.min.js')}}"></script>
+        <script src="{{secure_asset('assets/js/chartist.min.js')}}"></script>
       
         <!--  Notifications Plugin    -->
-        <script src="{{asset('assets/js/bootstrap-notify.js')}}"></script>
+        <script src="{{secure_asset('assets/js/bootstrap-notify.js')}}"></script>
     
           <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
-        <script src="{{asset('assets/js/light-bootstrap-dashboard.js?v=1.4.0')}}"></script>
+        <script src="{{secure_asset('assets/js/light-bootstrap-dashboard.js?v=1.4.0')}}"></script>
 
         <script type="text/javascript">
             $(document).ready(function(){
