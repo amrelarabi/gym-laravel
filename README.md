@@ -6,11 +6,11 @@ Custom gym system for maxgym<br>
 <br>
 <code>
 DB_CONNECTION=my_datebase_type<br>
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=my_database_name
-DB_USERNAME=my_database_username
-DB_PASSWORD=my_database_password
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=my_database_name<br>
+DB_USERNAME=my_database_username<br>
+DB_PASSWORD=my_database_password<br>
 </code><br>
 3. to run the migrations with the seeds<br>
 <code>$ artisan migrate --seed</code><br>
